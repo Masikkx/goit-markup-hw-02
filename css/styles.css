@@ -2,6 +2,7 @@
 body{
 	font-family: "Roboto", sans-serif;
 	color: #434455;
+	background-color: #FFFFFF;
 }
 .hero , footer{
 	background-color: #2E2F42;
@@ -23,6 +24,7 @@ h2{
 	line-height: 111%;
 	letter-spacing: 0.02em;
 	text-align: center;
+	text-transform: capitalize;
 }
 h3{
 	color: #2E2F42;
@@ -47,10 +49,10 @@ p{
 	line-height: 117%;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #2E2F42;
+	color: #4D5AE5;
 }
 .logo span{
-	color: #4D5AE5;
+	color: #2E2F42;
 }
 .page-nav-list-item a{
 	color: #2E2F42;
@@ -73,6 +75,9 @@ p{
 	font-size: 16px;
 	line-height: 150%;
 	letter-spacing: 0.02em;
+}
+.page-contacts{
+	font-style: normal;
 }
 
 /* ---HERO--- */
@@ -99,9 +104,20 @@ h1{
 .hero-btn:focus{
 background-color:#404bbf;
 }
+/* ---OUR TEAM--- */
+
+.our-team{
+	background-color: #F4F4FD;
+}
+.our-team-list-item{
+	background-color: #FFFFFF;
+}
+.our-team-list-text{
+	font-size: 16px;
+}
 
 /* ---FOOTER--- */
-.page-footer .logo{
+.page-footer .logo-span{
 	color: #F4F4FD;
 }
 .page-footer p{
